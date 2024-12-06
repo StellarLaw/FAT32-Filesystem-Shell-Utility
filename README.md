@@ -1,5 +1,5 @@
 # FAT32 Filesystem Shell Utility
-Course: COP4610: Operating Systems
+
 Team Members:
 - Alek Coupet
 - Bilal Taleb
