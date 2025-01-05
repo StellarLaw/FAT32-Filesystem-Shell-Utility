@@ -11,21 +11,6 @@ Team Members:
 This project provides a user-space shell-like utility capable of interpreting a FAT32 file system image. It allows users to navigate directories, list entries, create files and directories, read and write files, rename entries, and remove files and directories, all within the image's file system space.
 
 
-## Division of Labor (Before)
-
-- Part 1: Mounting File Image | Alek / Bilal
-- Part 2: Navigation | Alek / Sayed
-- Part 3: Create | Bilal / Sayed
-- Part 4: Read | Alek / Sayed
-- Part 5: Update | Bilal / Alek
-- Part 6: Delete | Sayed / Bilal
-
-## Division of Labor (After)
-
-- Bilal: Implemented mounting/unmounting functions, info command, fs_mount, fs_unmount, and underlying FAT read/write operations. Contributed to fs.c for cluster chain manipulation and error handling.
-- Alek: Implemented navigation-related functions (fs_cd, fs_ls) and file I/O commands (fs_open, fs_read, fs_write, fs_close, fs_lseek) in fs.c. Also integrated the prompt path updates in commands.c.
-- Sayed: Implemented mkdir, creat, rm, rmdir, and rename functions. Also wrote the lsof command, ensuring file opening and closing data structures were properly maintained.
-
 ## File Listing
 
 ```
