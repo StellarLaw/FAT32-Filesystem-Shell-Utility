@@ -1,11 +1,5 @@
 # FAT32 Filesystem Shell Utility
 
-Team Members:
-- Alek Coupet
-- Bilal Taleb
-- Sayed Haidar
-
-
 ## Overview
 
 This project provides a user-space shell-like utility capable of interpreting a FAT32 file system image. It allows users to navigate directories, list entries, create files and directories, read and write files, rename entries, and remove files and directories, all within the image's file system space.
