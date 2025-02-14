@@ -22,7 +22,7 @@ This project provides a user-space shell-like utility capable of interpreting a 
     ├── commands.c
     ├── utils.c
 └── bin
-    └── filesys (produced after running `make`)
+    └── filesys 
 ```
 
 Description of Key Files:
